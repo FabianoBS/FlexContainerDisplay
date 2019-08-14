@@ -1,31 +1,23 @@
-/* Row Item */
+/* Nowrap Item */
 
-.row {
-    flex-direction: row;
+.nowrap {
+    flex-wrap: nowrap;
 }
 
-/* Row-reverse Item */
+/* Wrap Item */
 
-.row-reverse {
-    flex-direction: row-reverse;
+.wrap {
+    flex-wrap: wrap;
 }
 
-/* Column Item */
-
-.column {
-    flex-direction: column;
-}
-
-/* Column-reverse Item */
-
-.column-reverse {
-    flex-direction: column-reverse;
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
 }
 
 /* Container */
 
 .container {
-    max-width: 400px;
+    max-width: 360px;
     margin: 0 auto;
     border: 1px solid #ccc;
     display: flex;
