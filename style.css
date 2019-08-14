@@ -1,23 +1,25 @@
-/* Flex */
-.flex {
-	display: flex;
+/* Row Item */
+
+.row {
+    flex-direction: row;
 }
 
-.flex-wrap {
-    flex-wrap: wrap;
+/* Row-reverse Item */
+
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
-.flex-item-1 {
-    flex: 1;
+/* Column Item */
+
+.column {
+    flex-direction: column;
 }
 
-/* Flex Item */
+/* Column-reverse Item */
 
-.item {
-    margin: 5px;
-    background: tomato;
-    text-align: center;
-    font-size: 1.5em;
+.column-reverse {
+    flex-direction: column-reverse;
 }
 
 /* Container */
@@ -26,6 +28,18 @@
     max-width: 400px;
     margin: 0 auto;
     border: 1px solid #ccc;
+    display: flex;
+}
+
+/* Flex Item */
+
+.item {
+    flex: 1;
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+    
 }
 
 h1 {
