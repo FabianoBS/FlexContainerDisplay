@@ -1,17 +1,32 @@
-/* Nowrap Item */
+/* Row-nowrap Item */
 
-.nowrap {
-    flex-wrap: nowrap;
+.row-nowrap {
+    flex-flow: row nowrap;
 }
 
-/* Wrap Item */
+/* Row-wrap Item */
 
-.wrap {
-    flex-wrap: wrap;
+.row-wrap {
+    flex-flow: row wrap;
 }
 
-.wrap-reverse {
-    flex-wrap: wrap-reverse;
+/* Column-nowrap Item */
+
+.column-nowrap {
+    flex-flow: column nowrap;
+}
+
+/* Column-wrap Item */
+
+.column-wrap {
+    flex-flow: column wrap;
+}
+
+/* Row-nowrap Item */
+
+.column-wrap-reverse {
+
+    flex-flow: column-reverse;
 }
 
 /* Container */
